@@ -91,6 +91,9 @@ public class Rock_Papar_Scissor_Game {
 		// SCORE COMPARISON TO CHECK WHO WIN THE GAME
 		if(PlayerScore > CompScore)
 			System.out.println("PLAYER WIN");
+		else if (PlayerScore == CompScore) {
+			System.out.println("TIE TRY AGAIN");
+		}
 		else System.out.println("COMPUTER WIN");
 		System.out.println("DO U WANT TO PLAY AGAIN Y/N");
 		yesno = scanner.nextLine();
